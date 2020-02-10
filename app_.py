@@ -4,9 +4,9 @@ from flask_jwt import JWT, jwt_required
 import sqlite3
 
 from security_ import authenticate, identity
-from resource.users_ import UserRegister
-from resource.player import Player, Playerlist
-from resource.club import Club, Clublist
+from resources.users_ import UserRegister
+from resources.player import Player, Playerlist
+from resources.club import Club, Clublist
 from flask_restful import Resource, reqparse
 
 app = Flask(__name__)
