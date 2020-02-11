@@ -4,8 +4,6 @@ from models.users import ModelUser
 
 
 class User():
-    #TABLE_NAME = 'users'
-
     def __init__(self, _id, username, password):
         self.id = _id
         self.username = username
